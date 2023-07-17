@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+// item represents a todo item.
+
 type item struct {
 	Task        string
 	Done        bool
