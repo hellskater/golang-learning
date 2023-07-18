@@ -1,0 +1,12 @@
+# Set the email address that should be used to contact you if there is a problem with
+# your TLS certificates.
+{
+email you@example.com
+}
+
+# Remove the http:// prefix from your site address.
+# replace with domain
+164.92.173.71 {
+	respond /debug/* "Not Permitted" 403
+	reverse_proxy localhost:4000
+}
